@@ -57,10 +57,7 @@ const data = [
 
 const DataList = document.getElementById('data');
 
-<<<<<<< HEAD
 // function to generate data
-=======
->>>>>>> 6816f42de19794f7fbcbd20bf7579198678b0a9e
 function generateData() {
   // DataList.innerHTML = '';
   data.forEach((d) => {
