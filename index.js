@@ -57,6 +57,7 @@ const data = [
 
 const DataList = document.getElementById('data');
 
+// function to generate data
 function generateData() {
   // DataList.innerHTML = '';
   data.forEach((d) => {
