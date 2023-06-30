@@ -61,12 +61,12 @@ const DataList = document.getElementById('data');
 function generateData() {
   // DataList.innerHTML = '';
   data.forEach((d) => {
-    DataList.innerHTML += `<div id="title">${d.id}</div>
+    DataList.innerHTML += `<div id="title-container"><div id="title-number">${d.id}</div>
     <div id="title">${d.title}</div>
     <div id="links">
     <a href="${d.demo}">Demo</a>
     <a href="${d.repo}">Repo</a>
-    </div>
+    </div></div>
     `;
   });
 }
