@@ -1,0 +1,92 @@
+/*desktop styles*/
+main{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    background-color: #69A2B0;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    height: 150px;
+}
+.container a{
+    background-color: white;
+    color: dimgrey;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+.container a:hover{
+    background-color: dimgrey;
+    color: white;
+    cursor: pointer;
+}
+.container h1{
+    text-shadow: 2px 2px 10px black;
+    padding-top: 20px;
+}
+
+#data{
+    background-color: #FFCAB1;
+    margin-top: 15px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#title-container{
+    background-color: #69A2B0;
+    width: 300px;
+    border-radius: 25px;
+    color: white;
+    height: 50px;
+    margin-top: 25px;
+}
+
+#title-number{
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin-left: 20px;
+    display: inline-block;
+    text-shadow: 2px 2px 10px black;
+    
+}
+#title{
+    margin-left: 20px;
+    display: inline-block;
+}
+#links{
+    margin-left: 175px;
+    display: inline-block;
+}
+#links a{
+    background-color: white;
+    color: dimgrey;
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+#links a:hover{
+    background-color: dimgrey;
+    color: white;
+    cursor: pointer;
+}
+
+/*mobile styles*/
+@media (max-width:1023px){
+    main{
+        width: 350px;
+    }
+    #data{
+        display: block;
+    }
+    .container{
+        height: 200px;
+    }
+}
